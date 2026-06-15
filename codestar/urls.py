@@ -18,8 +18,13 @@ from django.contrib import admin
 from django.urls import path
 from blog.views import my_blog
 
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('blog/', my_blog, name='blog'),
+    
+# ]
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', my_blog, name='home'),  # Add this line for the root URL
     path('blog/', my_blog, name='blog'),
-    
 ]
