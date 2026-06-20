@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = 'django-insecure-jxa1*_362kv43z)-%)^icukj%olui#buoh975!jl3(h!=(ukv9'
-SECRET_KEY = os.environ.get("postgresql://neondb_owner:npg_9XMnbIHlNB6p@ep-twilight-queen-ascs1xxa.c-4.eu-central-1.aws.neon.tech/bulge_cone_upper_944795")
+SECRET_KEY = os.environ.get("SECRET_KEY")
 
 
 
